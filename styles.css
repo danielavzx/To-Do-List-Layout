@@ -1,0 +1,201 @@
+/* General text style */
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* layout box style */
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+/* layout box style */
+.todo-list {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 100%;
+    max-width: 600px;
+}
+
+/* heading style */
+.main-heading {
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* spacing between top boxes */
+.todo-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* andles spacing */
+.form-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* style for top boxes */
+.input-box {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1em;
+    width: 100%;
+}
+
+.date-box{
+    max-width: 100px; /* Width of date box */
+}
+
+.select-box {
+    max-width: 120px; /* Width of Leo option box */
+}
+
+.task-box {
+    max-width: 300px; /* Width of center task box */
+}
+
+.teammate-name {
+    width: 300px; /* Width of teammate name box */
+}
+
+/* styling for the add & assign buttons */
+.add-button, .assign-button {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;
+    max-width: 80px;
+}
+
+/* styling for hovering over the add and assign buttons */
+.add-button:hover, .assign-button:hover {
+    background-color: #0056b3;
+}
+
+/* length of tasks */
+.tasks {
+    margin-top: 20px;
+}
+
+/* styling of tasks */
+.task {
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 3px;
+    display: flex;
+    align-items: center;
+}
+
+/* text on the left side of each task */
+.task-left {
+    flex: 1; 
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+/* text on the right side of each task */
+.task-right {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* length of text on the left side of each task */
+.task-left span {
+    font-size: 1em; 
+}
+
+/* distance between text and checkbox on the right side of each task*/
+.task-right input[type="checkbox"] {
+    margin-left: 0px;
+}
+
+/* button style */
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+/* styles for the clear and reset buttons */
+.clear-button, .reset-button {
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* color for the clear button */
+.clear-button {
+    background-color: #64d05e;
+}
+
+/* hover style for the clear button */
+.clear-button:hover {
+    background-color: #4ea649;
+}
+
+/* color for the reset button */
+.reset-button {
+    background-color: #c3c3c3;
+}
+
+/* hover style for the reset button */
+
+.reset-button:hover {
+    background-color: #8f8f8f;
+}
+
+/* style for top dividing line */
+.straight-line {
+    border-top: 1px solid #ccc; 
+    margin: 20px 0;
+}
+
+/* style for bottom dividing line */
+.straight-line2 {
+    border-top: 1px solid #ccc; 
+    margin-top: 45px;
+}
+
+/* style for names */
+.names {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    font-size: 1.17em;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+/* style for Arnavi */
+.name1 {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    font-size: 1.17em;
+    font-weight: bold;
+    margin-top: -10px;
+    margin-bottom: -5px;
+}
+
+

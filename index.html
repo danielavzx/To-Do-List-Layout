@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Daniela Velazquez">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="todo-list">
+            <h1 class="main-heading">To-Do List</h1>  <!-- Heading -->
+            <form class="todo-form">
+                <div class="form-group">
+                    <input type="text" placeholder="Teammate Name" class="input-box">  <!-- Top box -->
+                    <button type="button" class="add-button">Add</button>  <!-- Add button -->
+                </div>
+                <div class="form-group">
+                    <select class="input-box select-box">
+                        <option value="leo">Leo</option>  <!-- Option Box -->
+                    </select>
+                    <input type="text" placeholder="Task" class="input-box task-box"> <!-- Task Box -->
+                    <input type="date" class="input-box date-box">  <!-- Date Box -->
+                    <button type="button" class="assign-button">Assign</button>  <!-- Assign Button -->
+                </div>
+                <hr class="straight-line">  <!-- Dividing Line -->
+                <p class="name1">Arnavi</p>  <!-- Name1 -->
+            </form>
+             <!-- Tasks in each task box -->
+            <div class="tasks">
+                <div class="task">
+                    <div class="task-left">  <!-- Task Left is for the test located on the left-->
+                        <span>Set up Flask server</span>
+                    </div>
+                    <div class="task-right">  <!-- Task Right is for the test located on the right -->
+                        <span>Due: 2099-10-01</span>
+                        <input type="checkbox"> <!-- including checkboxes -->
+                    </div>
+                </div>
+                <div class="task">
+                    <div class="task-left">
+                        <span>Set up Git Repo</span>
+                    </div>
+                    <div class="task-right">
+                        <span>Due: 2099-10-01</span>
+                        <input type="checkbox">
+                    </div>
+                </div>
+                <p class="names">Laura</p>
+                <div class="task">
+                    <div class="task-left">
+                        <span>Draft weekly plan</span>
+                    </div>
+                    <div class="task-right">
+                        <span>Due: 2099-09-28</span>
+                        <input type="checkbox">
+                    </div>
+                </div>
+                <p class="names">Leo</p>
+                <div class="task">
+                    <div class="task-left">
+                        <span>Survey existing apps</span>
+                    </div>
+                    <div class="task-right">
+                        <span>Due: 2099-09-28</span>
+                        <input type="checkbox">
+                    </div>
+                </div>
+                <hr class="straight-line2"> <!-- Dividing Line 2 -->
+                <div class="buttons">
+                    <button type="button" class="clear-button">Clear Completed</button> <!-- Clear Completed Button -->
+                    <button type="button" class="reset-button">Reset</button> <!-- Reset Completed Button -->
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
